@@ -12,5 +12,5 @@ export const Providers: React.FC<ProvidersProps> = ({ children }) => {
     <SessionProvider>
       <NextUIProvider>{children}</NextUIProvider>
     </SessionProvider>
-  )
+  );
 };
